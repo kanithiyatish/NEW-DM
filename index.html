@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DriveMate — Premium Automotive Services, At Your Doorstep</title>
+<meta name="description" content="DriveMate brings certified mechanics, genuine parts and transparent pricing to your doorstep. Book periodic service, AC repair, detailing and more in minutes.">
+<link rel="icon" href="assets/logo.jpg">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<div class="topbar">
+  <div class="container">
+    <div class="topbar-left">
+      <span>&#9742; 1800-212-4488</span>
+      <span>Mon–Sun, 7:00 AM – 11:00 PM</span>
+    </div>
+    <div class="topbar-right">
+      <a href="professionals.html">Become a Professional</a>
+      <a href="#help">Help Center</a>
+      <a href="#track">Track Order</a>
+    </div>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container nav">
+    <a href="index.html" class="brand">
+      <img src="assets/logo.jpg" alt="DriveMate logo">
+      <div class="brand-text">
+        <span class="name">DriveMate</span>
+        <span class="tag">Premium Automotive Services</span>
+      </div>
+    </a>
+
+    <nav class="nav-links">
+      <a href="four-wheelers.html">4 Wheelers</a>
+      <a href="two-wheelers.html">2 Wheelers</a>
+      <a href="#services">Services</a>
+      <a href="#why">Why DriveMate</a>
+      <a href="#plans">Membership</a>
+      <a href="#reviews">Reviews</a>
+    </nav>
+
+    <div class="nav-actions">
+      <label class="city-pill">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        <select id="city-select" aria-label="Select city">
+          <option>Nellore</option>
+          <option>Mysore</option>
+          <option>Bengaluru</option>
+          <option>Hyderabad</option>
+          <option>Chennai</option>
+        </select>
+      </label>
+      <a href="cart.html" class="icon-btn" aria-label="Cart">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+        <span class="badge">2</span>
+      </a>
+      <a href="login.html" class="btn btn-ghost btn-sm">Log In</a>
+      <a href="login.html#signup" class="btn btn-primary btn-sm">Book a Service</a>
+      <button class="hamburger" aria-label="Menu">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <div class="eyebrow">Serving 40+ cities · 3,200+ certified mechanics</div>
+
+      <div class="vehicle-toggle" role="tablist" aria-label="Vehicle type">
+        <a href="four-wheelers.html" class="active" role="tab" aria-selected="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12l2-6h14l2 6"/><path d="M3 12v6h18v-6"/><circle cx="7.5" cy="18" r="1.5"/><circle cx="16.5" cy="18" r="1.5"/></svg>
+          4 Wheelers
+        </a>
+        <a href="two-wheelers.html" role="tab" aria-selected="false">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="5.5" cy="17.5" r="3.5"/><circle cx="18.5" cy="17.5" r="3.5"/><path d="M15 6h4l-2 5H8l3-8H8"/><path d="M9 11l3 6.5h6.5"/></svg>
+          2 Wheelers
+        </a>
+      </div>
+
+      <h1>Doorstep car &amp; bike care, <em>engineered</em> to precision.</h1>
+      <p class="lead">Genuine parts, transparent pricing and background-verified professionals — DriveMate handles the wrench work while you keep the keys in your pocket.</p>
+
+      <div class="hero-cta">
+        <a href="login.html#signup" class="btn btn-primary">Book a Service <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <a href="#services" class="btn btn-ghost">Explore Services</a>
+      </div>
+
+      <div class="booking-bar">
+        <div class="field">
+          <label>Vehicle</label>
+          <select>
+            <option>Hatchback</option>
+            <option>Sedan</option>
+            <option>SUV</option>
+            <option>Luxury</option>
+          </select>
+        </div>
+        <div class="field">
+          <label>Service</label>
+          <select>
+            <option>Periodic Service</option>
+            <option>AC Repair</option>
+            <option>Detailing</option>
+            <option>Denting &amp; Painting</option>
+          </select>
+        </div>
+        <button class="btn btn-primary">Check Price</button>
+      </div>
+
+      <div class="hero-stats">
+        <div class="stat"><b>4.8<span style="font-size:1rem;">/5</span></b><span>Average rating · 2.1L+ reviews</span></div>
+        <div class="stat"><b>90 Days</b><span>Service warranty</span></div>
+        <div class="stat"><b>60 Min</b><span>Average pickup response</span></div>
+      </div>
+    </div>
+
+    <div class="hud" aria-hidden="true">
+      <div class="hud-ring"></div>
+      <div class="hud-ring r2"></div>
+      <div class="hud-core">
+        <img src="assets/logo.jpg" alt="">
+      </div>
+      <div class="hud-node" style="top:8%; left:48%;"></div>
+      <div class="hud-node" style="top:42%; left:4%; animation-delay:.6s;"></div>
+      <div class="hud-node" style="top:70%; left:14%; animation-delay:1.1s;"></div>
+      <div class="hud-node" style="top:78%; left:82%; animation-delay:1.6s;"></div>
+      <div class="hud-node" style="top:20%; left:88%; animation-delay:.3s;"></div>
+      <div class="hud-label" style="top:4%; left:52%;">ENGINE · OK</div>
+      <div class="hud-label" style="top:40%; left:-8%;">BRAKES · 82%</div>
+      <div class="hud-label" style="top:74%; left:0%;">TYRES · CHECK</div>
+      <div class="hud-label" style="top:82%; left:70%;">BATTERY · 12.6V</div>
+      <div class="hud-label" style="top:16%; left:82%;">AC · OPTIMAL</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TRUST MARQUEE ============ -->
+<div class="marquee">
+  <div class="marquee-track">
+    <div class="marquee-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2 3 7v10l9 5 9-5V7z"/></svg> Genuine OEM Parts</div>
+    <div class="marquee-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9 12l2 2 4-4"/></svg> Background-Verified Mechanics</div>
+    <div class="marquee-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> 90-Day Service Warranty</div>
+    <div class="marquee-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 8v4l3 3"/><circle cx="12" cy="12" r="9"/></svg> Fixed, Upfront Pricing</div>
+    <div class="marquee-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h18M3 6h18M3 18h18"/></svg> Live Job Tracking</div>
+  </div>
+</div>
+
+<!-- ============ OFFERS ============ -->
+<section id="offers" style="padding-bottom:1rem;">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow">Offers for you</div>
+        <h2>Save more on every visit</h2>
+      </div>
+      <p>Applied automatically at checkout, or enter the code manually in your cart.</p>
+    </div>
+    <div class="offers-grid stagger">
+      <div class="offer-card reveal">
+        <span class="code">FIRST200</span>
+        <h4>Flat ₹200 off</h4>
+        <p>On your first booking with DriveMate, across any service category.</p>
+      </div>
+      <div class="offer-card reveal">
+        <span class="code">TWOWHEEL15</span>
+        <h4>15% off bike servicing</h4>
+        <p>Valid on periodic service and general check-ups for two-wheelers.</p>
+      </div>
+      <div class="offer-card reveal">
+        <span class="code">REFER500</span>
+        <h4>₹500 credit per referral</h4>
+        <p>Invite a friend — you both get service credit once they book.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SERVICES ============ -->
+<section id="services">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow">What we fix</div>
+        <h2>Every service your car<br>will ever ask for</h2>
+      </div>
+      <p>From a routine oil change to full-body denting, every job is scoped, quoted and warrantied before a spanner is picked up.</p>
+    </div>
+
+    <div class="services-grid stagger">
+      <article class="service-card reveal">
+        <div class="service-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M7 7h10v10"/></svg></div>
+        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.9l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.9-.3 1.7 1.7 0 0 0-1 1.6V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1-1.6 1.7 1.7 0 0 0-1.9.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.9 1.7 1.7 0 0 0-1.6-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.6-1 1.7 1.7 0 0 0-.3-1.9l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.9.3H9a1.7 1.7 0 0 0 1-1.6V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.6 1.7 1.7 0 0 0 1.9-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.9V9a1.7 1.7 0 0 0 1.6 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.6 1z"/></svg></div>
+        <h3>Periodic Service</h3>
+        <p>Oil change, filters, 40-point inspection — tuned to your manufacturer's schedule.</p>
+        <div class="service-meta"><span>Starts at</span><b>₹1,499</b></div>
+      </article>
+
+      <article class="service-card reveal">
+        <div class="service-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M7 7h10v10"/></svg></div>
+        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3v2M12 19v2M5 5l1.5 1.5M17.5 17.5 19 19M3 12h2M19 12h2M5 19l1.5-1.5M17.5 6.5 19 5"/><circle cx="12" cy="12" r="4"/></svg></div>
+        <h3>AC Service &amp; Repair</h3>
+        <p>Gas top-up, compressor diagnostics and cooling-coil cleaning for icy-cold air.</p>
+        <div class="service-meta"><span>Starts at</span><b>₹899</b></div>
+      </article>
+
+      <article class="service-card reveal">
+        <div class="service-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M7 7h10v10"/></svg></div>
+        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 4s2 2 8 2 8-2 8-2M4 12s2 2 8 2 8-2 8-2M4 20s2 2 8 2 8-2 8-2"/></svg></div>
+        <h3>Car Spa &amp; Detailing</h3>
+        <p>Ceramic coating, interior deep-clean and paint correction by trained detailers.</p>
+        <div class="service-meta"><span>Starts at</span><b>₹1,199</b></div>
+      </article>
+
+      <article class="service-card reveal">
+        <div class="service-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M7 7h10v10"/></svg></div>
+        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M14.7 6.3a4 4 0 0 0-5.5 4.9L3 17.4V21h3.6l6.2-6.2a4 4 0 0 0 4.9-5.5l-2.8 2.8-2-2z"/></svg></div>
+        <h3>Denting &amp; Painting</h3>
+        <p>Panel-matched OEM paint, dent-pulling and bumper repair with a colour-match guarantee.</p>
+        <div class="service-meta"><span>Starts at</span><b>₹2,499</b></div>
+      </article>
+
+      <article class="service-card reveal">
+        <div class="service-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M7 7h10v10"/></svg></div>
+        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="6" y="7" width="12" height="14" rx="2"/><path d="M9 7V5a3 3 0 0 1 6 0v2"/></svg></div>
+        <h3>Battery &amp; Electricals</h3>
+        <p>Load testing, jump-start callouts and doorstep battery replacement, any make.</p>
+        <div class="service-meta"><span>Starts at</span><b>₹699</b></div>
+      </article>
+
+      <article class="service-card reveal">
+        <div class="service-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M7 7h10v10"/></svg></div>
+        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="2.5"/><path d="M12 4v2M12 18v2M4 12h2M18 12h2"/></svg></div>
+        <h3>Tyres &amp; Wheel Care</h3>
+        <p>Alignment, balancing and premium tyre replacement from every major brand.</p>
+        <div class="service-meta"><span>Starts at</span><b>₹349</b></div>
+      </article>
+
+      <article class="service-card reveal">
+        <div class="service-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M7 7h10v10"/></svg></div>
+        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 12l2-6h14l2 6"/><path d="M3 12v6h18v-6"/><circle cx="7.5" cy="18" r="1.5"/><circle cx="16.5" cy="18" r="1.5"/></svg></div>
+        <h3>Windshield &amp; Lights</h3>
+        <p>Chip repair, full glass replacement and headlamp restoration for night-clear vision.</p>
+        <div class="service-meta"><span>Starts at</span><b>₹599</b></div>
+      </article>
+
+      <article class="service-card reveal">
+        <div class="service-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M7 7h10v10"/></svg></div>
+        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="9"/></svg></div>
+        <h3>Pre-Purchase Inspection</h3>
+        <p>200-point diagnostic report before you buy or sell — delivered in under 2 hours.</p>
+        <div class="service-meta"><span>Starts at</span><b>₹999</b></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ HOW IT WORKS ============ -->
+<section id="how" style="background:var(--bg-0); border-top:1px solid var(--line); border-bottom:1px solid var(--line);">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow">The process</div>
+        <h2>Booked in a minute, done by evening</h2>
+      </div>
+      <p>Every job runs through the same four checkpoints, so nothing about your car's care is left to guesswork.</p>
+    </div>
+    <div class="steps stagger">
+      <div class="step reveal">
+        <div class="num">01</div>
+        <h4>Pick a service</h4>
+        <p>Tell us your car and symptom — get an itemised, fixed quote instantly.</p>
+      </div>
+      <div class="step reveal">
+        <div class="num">02</div>
+        <h4>Choose a slot</h4>
+        <p>Doorstep or drop-off at a partner garage — same-day slots, most cities.</p>
+      </div>
+      <div class="step reveal">
+        <div class="num">03</div>
+        <h4>Track live</h4>
+        <p>Watch your mechanic's ETA and job progress in real time, start to finish.</p>
+      </div>
+      <div class="step reveal">
+        <div class="num">04</div>
+        <h4>Pay &amp; drive off</h4>
+        <p>Digital invoice, before/after photos and a 90-day warranty on every job.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WHY US ============ -->
+<section id="why">
+  <div class="container why-grid">
+    <div class="reveal">
+      <div class="eyebrow">Why DriveMate</div>
+      <h2 style="margin:1rem 0 2rem; font-size:clamp(1.9rem,3vw,2.5rem);">Built like the cars we service</h2>
+      <div class="why-list">
+        <div class="why-item">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+          <div><h4>Certified &amp; background-checked</h4><p>Every mechanic clears a skill assessment and identity verification before their first job.</p></div>
+        </div>
+        <div class="why-item">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 8v4l3 3"/><circle cx="12" cy="12" r="9"/></svg></div>
+          <div><h4>No surprise bills</h4><p>Your quote is locked before work starts; anything extra needs your approval, always.</p></div>
+        </div>
+        <div class="why-item">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9 12l2 2 4-4"/></svg></div>
+          <div><h4>Genuine parts, real invoices</h4><p>Sourced from authorised distributors, every part is barcoded and listed on your bill.</p></div>
+        </div>
+        <div class="why-item">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></div>
+          <div><h4>Live diagnostics</h4><p>Photos, videos and a full inspection report land in your app before any repair begins.</p></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="why-media reveal-scale" aria-hidden="true">
+      <svg viewBox="0 0 640 640" style="width:100%; height:100%; display:block; background:linear-gradient(155deg,#1B1F24,#0D0F12);">
+        <defs>
+          <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+            <path d="M32 0H0V32" fill="none" stroke="rgba(231,233,236,0.06)" stroke-width="1"/>
+          </pattern>
+          <radialGradient id="glow" cx="70%" cy="20%" r="60%">
+            <stop offset="0%" stop-color="rgba(227,152,92,0.28)"/>
+            <stop offset="100%" stop-color="rgba(227,152,92,0)"/>
+          </radialGradient>
+        </defs>
+        <rect width="640" height="640" fill="url(#grid)"/>
+        <rect width="640" height="640" fill="url(#glow)"/>
+        <g fill="none" stroke="#E3985C" stroke-width="2.4" opacity="0.9">
+          <path d="M100 380c20-70 90-110 200-110h80c90 0 150 40 160 110" />
+          <path d="M120 380h400v46a20 20 0 0 1-20 20H140a20 20 0 0 1-20-20z" />
+          <circle cx="200" cy="446" r="34" />
+          <circle cx="440" cy="446" r="34" />
+        </g>
+        <g fill="none" stroke="rgba(231,233,236,0.35)" stroke-width="1.2" stroke-dasharray="4 5">
+          <circle cx="200" cy="446" r="52"/>
+          <circle cx="440" cy="446" r="52"/>
+        </g>
+        <text x="320" y="130" text-anchor="middle" fill="#E7E9EC" font-family="Oswald, sans-serif" font-size="22" letter-spacing="4" opacity="0.85">DIAGNOSTIC SCAN</text>
+        <text x="320" y="158" text-anchor="middle" fill="#8A5A32" font-family="JetBrains Mono, monospace" font-size="12" letter-spacing="2">200 CHECKPOINTS · REAL-TIME</text>
+      </svg>
+      <div class="tag"><span class="dot-live"></span> Live inspection feed active</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MEMBERSHIP / PLANS ============ -->
+<section id="plans" style="background:var(--bg-0); border-top:1px solid var(--line); border-bottom:1px solid var(--line);">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow">Membership</div>
+        <h2>Care plans that keep pace<br>with your mileage</h2>
+      </div>
+      <p>Cancel anytime. Every plan includes priority slots and a dedicated service advisor.</p>
+    </div>
+    <div class="plans-grid stagger">
+      <div class="plan reveal">
+        <h3>Essential</h3>
+        <p style="color:var(--steel-dim); font-size:.85rem;">For light city drivers</p>
+        <div class="price">₹499<span> / mo</span></div>
+        <ul>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>1 periodic service / year</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>10% off all repairs</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>Roadside assistance</li>
+        </ul>
+        <a href="login.html#signup" class="btn btn-ghost btn-block">Choose Essential</a>
+      </div>
+      <div class="plan featured reveal">
+        <h3>Performance</h3>
+        <p style="color:var(--steel-dim); font-size:.85rem;">For daily 40km+ commuters</p>
+        <div class="price">₹899<span> / mo</span></div>
+        <ul>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>2 periodic services / year</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>20% off all repairs</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>Priority same-day slots</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>Free pickup &amp; drop</li>
+        </ul>
+        <a href="login.html#signup" class="btn btn-primary btn-block">Choose Performance</a>
+      </div>
+      <div class="plan reveal">
+        <h3>Elite</h3>
+        <p style="color:var(--steel-dim); font-size:.85rem;">For luxury &amp; multi-car garages</p>
+        <div class="price">₹1,799<span> / mo</span></div>
+        <ul>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>Unlimited periodic services</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>30% off all repairs</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>Dedicated service advisor</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>Annual detailing included</li>
+        </ul>
+        <a href="login.html#signup" class="btn btn-ghost btn-block">Choose Elite</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TESTIMONIALS ============ -->
+<section id="reviews">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow">Trusted by drivers</div>
+        <h2>What the garage floor won't tell you</h2>
+      </div>
+      <p>2.1L+ verified reviews across 40 cities — here's a sample.</p>
+    </div>
+    <div class="testi-grid stagger">
+      <div class="testi reveal">
+        <div class="stars">★★★★★</div>
+        <p>"Booked an AC repair at 9am, mechanic was at my office parking by noon with the exact quote from the app. Zero haggling."</p>
+        <div class="testi-user"><div class="av">RK</div><div class="who"><b>Ravi Kumar</b><span>Hyundai Verna · Nellore</span></div></div>
+      </div>
+      <div class="testi reveal">
+        <div class="stars">★★★★★</div>
+        <p>"The pre-purchase inspection report caught a repainted door panel the seller never mentioned. Saved me a bad deal."</p>
+        <div class="testi-user"><div class="av">AS</div><div class="who"><b>Ayesha Sultana</b><span>Honda City · Bengaluru</span></div></div>
+      </div>
+      <div class="testi reveal">
+        <div class="stars">★★★★★</div>
+        <p>"Switched to the Performance plan after my third visit. Free pickup alone has paid for the membership twice over."</p>
+        <div class="testi-user"><div class="av">VP</div><div class="who"><b>Vikram Prasad</b><span>Mahindra XUV700 · Mysore</span></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BRANDS WE SERVICE ============ -->
+<section style="background:var(--bg-0); border-top:1px solid var(--line); border-bottom:1px solid var(--line);">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow">All makes, one mechanic</div>
+        <h2>Brands we service</h2>
+      </div>
+      <p>Cars and bikes, mass-market to premium — our tool kits and parts catalogue cover them all.</p>
+    </div>
+    <div class="brand-grid stagger">
+      <div class="brand-chip reveal"><div class="mark">MS</div><span>Maruti Suzuki</span></div>
+      <div class="brand-chip reveal"><div class="mark">HY</div><span>Hyundai</span></div>
+      <div class="brand-chip reveal"><div class="mark">HN</div><span>Honda</span></div>
+      <div class="brand-chip reveal"><div class="mark">TA</div><span>Tata</span></div>
+      <div class="brand-chip reveal"><div class="mark">MH</div><span>Mahindra</span></div>
+      <div class="brand-chip reveal"><div class="mark">TY</div><span>Toyota</span></div>
+      <div class="brand-chip reveal"><div class="mark">KI</div><span>Kia</span></div>
+      <div class="brand-chip reveal"><div class="mark">VW</div><span>Volkswagen</span></div>
+      <div class="brand-chip reveal"><div class="mark">BJ</div><span>Bajaj</span></div>
+      <div class="brand-chip reveal"><div class="mark">TVS</div><span>TVS</span></div>
+      <div class="brand-chip reveal"><div class="mark">RE</div><span>Royal Enfield</span></div>
+      <div class="brand-chip reveal"><div class="mark">YM</div><span>Yamaha</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ APP CTA ============ -->
+<section>
+  <div class="container">
+    <div class="app-cta reveal-scale">
+      <div>
+        <div class="eyebrow">Get the app</div>
+        <h2>Your car's service history,<br>always in your pocket</h2>
+        <p>Live tracking, digital invoices and one-tap rebooking — download the DriveMate app.</p>
+        <div class="store-badges">
+          <a href="#" class="store-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2 2 7v10l10 5 10-5V7z"/></svg><div><span>Get it on</span><b>Google Play</b></div></a>
+          <a href="#" class="store-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 18h.01"/></svg><div><span>Download on the</span><b>App Store</b></div></a>
+        </div>
+      </div>
+      <img src="assets/logo.jpg" alt="DriveMate app icon" style="width:150px; height:150px; border-radius:32px; box-shadow:0 30px 60px -20px rgba(0,0,0,.7);">
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="container footer-top">
+    <div class="footer-brand">
+      <a href="index.html" class="brand">
+        <img src="assets/logo.jpg" alt="DriveMate logo" style="width:40px; height:40px;">
+        <div class="brand-text"><span class="name">DriveMate</span><span class="tag">Premium Automotive Services</span></div>
+      </a>
+      <p>Certified mechanics, genuine parts and transparent pricing — delivered to your driveway across 40+ cities.</p>
+      <div class="footer-social">
+        <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a>
+        <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+        <a href="#" aria-label="X / Twitter"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4l16 16M20 4 4 20"/></svg></a>
+        <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/><path d="M10 9h4v2a4 4 0 0 1 8 0v9h-4v-8a2 2 0 0 0-4 0v8h-4z"/></svg></a>
+        <a href="#" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="6" width="20" height="12" rx="3"/><path d="M10 9.5v5l5-2.5z"/></svg></a>
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h5>Company</h5>
+      <ul>
+        <li><a href="#">About DriveMate</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Press &amp; Media</a></li>
+        <li><a href="#">Investor Relations</a></li>
+        <li><a href="#">Blog</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h5>For Customers</h5>
+      <ul>
+        <li><a href="four-wheelers.html">Car Services</a></li>
+        <li><a href="two-wheelers.html">Bike Services</a></li>
+        <li><a href="#plans">Membership Plans</a></li>
+        <li><a href="cart.html">My Cart</a></li>
+        <li><a href="#">Help Center</a></li>
+        <li><a href="#">Cancellation &amp; Refunds</a></li>
+        <li><a href="#">Service Warranty</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h5>For Professionals</h5>
+      <ul>
+        <li><a href="professionals.html">Register as a Mechanic</a></li>
+        <li><a href="professionals.html">Partner Garage Program</a></li>
+        <li><a href="professionals.html">Professional App</a></li>
+        <li><a href="professionals.html">Training &amp; Certification</a></li>
+        <li><a href="professionals.html">Earnings Calculator</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h5>Legal</h5>
+      <ul>
+        <li><a href="#">Terms of Service</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Trust &amp; Safety</a></li>
+        <li><a href="#">Sitemap</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container footer-bottom">
+    <p>&copy; <span class="js-year"></span> DriveMate Automotive Services Pvt. Ltd. All rights reserved.</p>
+    <div class="footer-legal">
+      <a href="#">Terms</a>
+      <a href="#">Privacy</a>
+      <a href="#">Cookies</a>
+      <a href="login.html">Log In</a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
