@@ -1,0 +1,6 @@
+[
+  { "id": "off_new20", "pct": "20% OFF", "title": "First service, on us", "description": "New customers get 20% off their first periodic service.", "code": "FIRST20" },
+  { "id": "off_refer", "pct": "₹300", "title": "Refer & earn", "description": "Give ₹300, get ₹300 — for every friend who books.", "code": "REFER300" },
+  { "id": "off_pickup", "pct": "FREE", "title": "Free pickup & drop", "description": "On all bookings above ₹999, in eligible cities.", "code": "FREERIDE" },
+  { "id": "off_bike15", "pct": "15% OFF", "title": "2-wheeler service week", "description": "Flat 15% off general service for bikes & scooters.", "code": "RIDE15" }
+]

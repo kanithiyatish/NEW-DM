@@ -1,0 +1,22 @@
+{
+  "four": [
+    { "id": "brand_maruti", "name": "Maruti Suzuki", "initials": "MS" },
+    { "id": "brand_hyundai", "name": "Hyundai", "initials": "HY" },
+    { "id": "brand_tata", "name": "Tata Motors", "initials": "TM" },
+    { "id": "brand_honda", "name": "Honda", "initials": "HN" },
+    { "id": "brand_toyota", "name": "Toyota", "initials": "TY" },
+    { "id": "brand_mahindra", "name": "Mahindra", "initials": "MH" },
+    { "id": "brand_kia", "name": "Kia", "initials": "KI" },
+    { "id": "brand_skoda", "name": "Škoda", "initials": "SK" }
+  ],
+  "two": [
+    { "id": "brand_royalenfield", "name": "Royal Enfield", "initials": "RE" },
+    { "id": "brand_bajaj", "name": "Bajaj", "initials": "BJ" },
+    { "id": "brand_hero", "name": "Hero MotoCorp", "initials": "HM" },
+    { "id": "brand_tvs", "name": "TVS", "initials": "TV" },
+    { "id": "brand_yamaha", "name": "Yamaha", "initials": "YM" },
+    { "id": "brand_honda2w", "name": "Honda", "initials": "HN" },
+    { "id": "brand_suzuki2w", "name": "Suzuki", "initials": "SZ" },
+    { "id": "brand_ktm", "name": "KTM", "initials": "KT" }
+  ]
+}

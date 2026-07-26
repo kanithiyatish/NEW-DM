@@ -1,0 +1,17 @@
+[
+  { "id": "svc_periodic_4w", "category": "four", "name": "Periodic Service — Comprehensive", "description": "Oil change, filters, 40-point inspection tuned to your manufacturer's schedule.", "price": 1499, "oldPrice": 2199, "warrantyDays": 90 },
+  { "id": "svc_ac_4w", "category": "four", "name": "AC Service & Gas Top-up", "description": "Compressor diagnostics, cooling-coil clean and gas refill for icy-cold air.", "price": 899, "oldPrice": 1199, "warrantyDays": 90 },
+  { "id": "svc_spa_4w", "category": "four", "name": "Car Spa & Detailing", "description": "Ceramic coating, interior deep-clean and paint correction.", "price": 1199, "oldPrice": 1599, "warrantyDays": 30 },
+  { "id": "svc_dent_4w", "category": "four", "name": "Denting & Painting", "description": "Panel-matched OEM paint and dent-pulling with colour-match guarantee.", "price": 2499, "oldPrice": 3299, "warrantyDays": 180 },
+  { "id": "svc_battery_4w", "category": "four", "name": "Battery & Electricals", "description": "Load testing, jump-start callouts and doorstep battery replacement.", "price": 699, "oldPrice": 999, "warrantyDays": 365 },
+  { "id": "svc_tyre_4w", "category": "four", "name": "Tyres & Wheel Care", "description": "Alignment, balancing and premium tyre replacement, every major brand.", "price": 349, "oldPrice": 499, "warrantyDays": 30 },
+  { "id": "svc_glass_4w", "category": "four", "name": "Windshield & Lights", "description": "Chip repair, glass replacement and headlamp restoration.", "price": 599, "oldPrice": 899, "warrantyDays": 90 },
+  { "id": "svc_ppi_4w", "category": "four", "name": "Pre-Purchase Inspection", "description": "200-point diagnostic report before you buy or sell.", "price": 999, "oldPrice": 1299, "warrantyDays": 0 },
+
+  { "id": "svc_general_2w", "category": "two", "name": "General Service — Bike/Scooter", "description": "Engine oil, chain lube, brake and clutch check, full tune-up.", "price": 499, "oldPrice": 799, "warrantyDays": 30 },
+  { "id": "svc_engine_2w", "category": "two", "name": "Engine Overhaul", "description": "Full engine strip, decarbonisation and gasket replacement.", "price": 1799, "oldPrice": 2399, "warrantyDays": 90 },
+  { "id": "svc_wash_2w", "category": "two", "name": "Wash & Detailing", "description": "Foam wash, chain clean and polish for a showroom finish.", "price": 249, "oldPrice": 399, "warrantyDays": 7 },
+  { "id": "svc_battery_2w", "category": "two", "name": "Battery Replacement", "description": "Doorstep battery testing and replacement, all major brands.", "price": 399, "oldPrice": 599, "warrantyDays": 365 },
+  { "id": "svc_tyre_2w", "category": "two", "name": "Tyre & Tube Change", "description": "Puncture repair, tyre and tube replacement at your doorstep.", "price": 199, "oldPrice": 299, "warrantyDays": 15 },
+  { "id": "svc_brake_2w", "category": "two", "name": "Brake & Clutch Care", "description": "Pad replacement, cable adjustment and brake fluid top-up.", "price": 299, "oldPrice": 449, "warrantyDays": 30 }
+]

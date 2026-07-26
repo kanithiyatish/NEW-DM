@@ -1,0 +1,14 @@
+<svg class="vehicle-art" viewBox="0 0 400 220" xmlns="http://www.w3.org/2000/svg">
+  <g class="detail"><path d="M20 190h360"/></g>
+  <circle class="wheel" cx="95" cy="165" r="38"/>
+  <circle class="hub" cx="95" cy="165" r="6"/>
+  <circle class="wheel" cx="305" cy="165" r="38"/>
+  <circle class="hub" cx="305" cy="165" r="6"/>
+  <path class="body" d="M95 165c0-30 20-46 46-46h20"/>
+  <path class="body" d="M161 119c20-20 46-4 46 18v28h60"/>
+  <path class="body" d="M207 137h58"/>
+  <path class="body" d="M267 137c14 0 26 12 26 26"/>
+  <path class="glass" d="M170 90c10-8 24-10 36-4"/>
+  <path class="body" d="M141 90h50"/>
+  <path class="detail" d="M110 150h30"/>
+</svg>
